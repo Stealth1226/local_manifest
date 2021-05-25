@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- 	<project path="device/lge/rs988" name="device_lge_rs988" remote="lighthouse-os-devices" revision="raft"/>
-	<project path="kernel/lge/msm8996" name="android_kernel_lge_msm8996" remote="lineage" revision="lineage-18.1" />
-	<project path="vendor/lge" name="proprietary_vendor_lge" remote="lighthouse-os-devices" revision="raft"/>
-        <project path="device/lge/msm8996-common" name="android_device_lge_msm8996-common" remote="lighthouse-os-devices" revision="raft"/>
-        <project path="device/lge/g5-common" name="android_device_lge_g5-common" remote="lineage" revision="lineage-18.1"/>
-        <project path="device/lge/common" name="android_device_lge_common" remote="lighthouse-os-devices" revision="raft"/>
-        <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" revision="lineage-18.1"/>
+ 	<project path="device/xiaomi/raphael" name="device_xiaomi_raphael" remote="lighthouse-os-devices" revision="raft"/>
+	<project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="lighthouse-os-devices" revision="raft" />
+	<project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="lighthouse-os-devices" revision="raft"/>
+        <project path="device/xiaomi/raphael-sepolicy" name="device_xiaomi_raphael-sepolicy" remote="lighthouse-os-devices" revision="raft"/>
 </manifest>
