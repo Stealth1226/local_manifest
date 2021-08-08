@@ -8,6 +8,8 @@
  	<project path="hardware/ril" name="Stealth1226/hardware_ril" remote="github" revision="11" />
   <remove-project name="external_tinycompress" />
  	<project path="external/tinycompress" name="lineageos/android_external_tinycompress" remote="github" revision="lineage-18.1" />
+  <remove-project name="system_sepolicy" />
+ 	<project path="system/sepolicy" name="Stealth1226/system_sepolicy" remote="github" revision="raft" />
 
 
 </manifest>
