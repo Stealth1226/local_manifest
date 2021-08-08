@@ -10,6 +10,8 @@
  	<project path="external/tinycompress" name="lineageos/android_external_tinycompress" remote="github" revision="lineage-18.1" />
   <remove-project name="system_sepolicy" />
  	<project path="system/sepolicy" name="Stealth1226/system_sepolicy" remote="github" revision="raft" />
+  <remove-project name="platform/system/tools/mkbootimg" />
+ 	<project path="system/tools/mkbootimg" name="lighthouse-os/android_system_tools_mkbootimg" remote="github" revision="raft" />
 
 
 </manifest>
