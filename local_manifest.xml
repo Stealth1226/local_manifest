@@ -6,5 +6,8 @@
  	<project path="hardware/samsung" name="Havoc-Devices/android_hardware_samsung" remote="github" revision="eleven"/>
   <remove-project name="platform/hardware/ril" />
  	<project path="hardware/ril" name="Stealth1226/hardware_ril" remote="github" revision="11" />
+  <remove-project name="external_tinycompress" />
+ 	<project path="external/tinycompress" name="lineageos/android_external_tinycompress" remote="github" revision="lineage-18.1" />
+
 
 </manifest>
