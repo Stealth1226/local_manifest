@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- 	<project path="device/xiaomi/raphael" name="device_xiaomi_raphael" remote="lighthouse-os-devices" revision="raft"/>
+ 	<project path="device/xiaomi/raphael" name="device_xiaomi_raphael_" remote="lighthouse-os-devices" revision="raft"/>
 	<project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="lighthouse-os-devices" revision="raft" />
 	<project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="lighthouse-os-devices" revision="raft"/>
         <project path="device/xiaomi/raphael-sepolicy" name="device_xiaomi_raphael-sepolicy" remote="lighthouse-os-devices" revision="raft"/>
