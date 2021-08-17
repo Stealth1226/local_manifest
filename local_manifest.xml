@@ -4,6 +4,6 @@
  	<project path="device/htc/m7" name="Stealth1226/android_device_htc_m7" remote="github" revision="raft"/>
 	<project path="device/htc/m7-common" name="Stealth1226/android_device_htc_m7-common" remote="github" revision="raft" />
 	<project path="device/htc/msm8960-common" name="stealth1226/android_device_htc_msm8960-common" remote="github" revision="raft"/>
-        <project path="kernel/htc/msm8960" name="htc-msm8960-dev/android_kernel_htc_msm8960" remote="github" revision="raft"/>
-        <project path="vendor/htc" name="htc-msm8960-dev/proprietary_vendor_htc" remote="github" revision="raft"/>
+        <project path="kernel/htc/msm8960" name="htc-msm8960-dev/android_kernel_htc_msm8960" remote="github" revision="lineage-18.1"/>
+        <project path="vendor/htc" name="htc-msm8960-dev/proprietary_vendor_htc" remote="github" revision="lineage-18.1"/>
 </manifest>
