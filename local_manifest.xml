@@ -8,4 +8,6 @@
         <project path="vendor/htc" name="htc-msm8960-dev/proprietary_vendor_htc" remote="github" revision="lineage-18.1"/>
         <remove-project name="platform/hardware/ril" />
  	<project path="hardware/ril" name="Stealth1226/hardware_ril" remote="github" revision="11" />
+        <remove-project name="system_sepolicy" />
+ 	<project path="system/sepolicy" name="Stealth1226/system_sepolicy" remote="github" revision="raft" />
 </manifest>
