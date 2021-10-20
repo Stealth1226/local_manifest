@@ -3,8 +3,8 @@
 
  	<project path="device/lge/rs988" name="device_lge_rs988" remote="lighthouse-os-devices" revision="raft"/>
 	<project path="kernel/lge/msm8996" name="android_kernel_lge_msm8996" remote="lighthouse-os-devices" revision="raft" />
-	<project path="vendor/lge" name="proprietary_vendor_lge" remote="lighthouse-os-devices" revision="raft"/>
-        <project path="device/lge/msm8996-common" name="android_device_lge_msm8996-common" remote="lighthouse-os-devices" revision="raft"/>
+	<project path="vendor/lge" name="Stealth1226/proprietary_vendor_lge" remote="github" revision="raft-ir"/>
+        <project path="device/lge/msm8996-common" name="Stealth1226/android_device_lge_msm8996-common" remote="github" revision="raft-ir"/>
         <project path="device/lge/g5-common" name="android_device_lge_g5-common" remote="lineage" revision="lineage-18.1"/>
         <project path="device/lge/common" name="android_device_lge_common" remote="lighthouse-os-devices" revision="raft"/>
         <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" revision="lineage-18.1"/>
