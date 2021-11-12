@@ -6,7 +6,9 @@
            revision="raft" />
 	
 	<remove-project name="android_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/msm8996/display" name="Stealth1226/hardware_qcom-caf_msm8996_display" remote="github" revision="sailboat" />
+        <remove-project name="frameworks_base" />
+        <project path="frameworks/base" name="frameworks_base-old" remote="lighthouse" />
+	<project path="hardware/qcom-caf/msm8996/display" name="Stealth1226/hardware_qcom-caf_msm8996_display" remote="github" revision="sailboat" />
 	<project path="device/lge/rs988" name="device_lge_rs988" remote="lighthouse-os-devices" revision="sailboat"/>
 	<project path="kernel/lge/msm8996" name="android_kernel_lge_msm8996" remote="lighthouse-os-devices" revision="sailboat" />
 	<project path="vendor/lge" name="Stealth1226/proprietary_vendor_lge" remote="github" revision="sailboat"/>
