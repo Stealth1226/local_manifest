@@ -10,6 +10,7 @@
 	<project path="kernel/realme/sm6150" name="dev-harsh1998/android_kernel_realme_sm6150" remote="github" revision="android-11.0.0" />
 	<project path="vendor/realme/X2" name="dev-harsh1998/android_vendor_realme_X2" remote="github" revision="lineage-18.0"/>
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" revision="lineage-19.0" />
-	<remove-project name="platform/hardware/nxp/nfc" />
+	<remove-project name="android_vendor_nxp_opensource_halimpl" />
+	<remove-project name="android_vendor_nxp_opensource_hidlimpl" />
 	
 </manifest>
