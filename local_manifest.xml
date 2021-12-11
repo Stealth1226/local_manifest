@@ -5,7 +5,8 @@
            fetch="https://github.com/lighthouse-os-devices"
            revision="raft" />
 	
-
+	<remove-project name="frameworks_base" />
+	<project path="frameworks/base" name="frameworks_base" remote="lighthouse" revision="sailboat-rebase"/>
 	<project path="device/realme/X2" name="device_realme_X2" remote="lighthouse-os-devices" revision="sailboat"/>
 	<project path="kernel/realme/sm6150" name="kernel_realme_sm6150" remote="lighthouse-os-devices" revision="sailboat" />
 	<project path="vendor/realme/X2" name="vendor_realme_X2" remote="lighthouse-os-devices" revision="sailboat"/>
