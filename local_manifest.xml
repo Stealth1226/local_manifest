@@ -3,26 +3,20 @@
 
 	  <remote  name="lighthouse-os-devices"
            fetch="https://github.com/lighthouse-os-devices"
-           revision="raft" />
+           revision="sailboat" />
 	
 
-	<remove-project name="system_netd" />
-	<project path="system/netd" name="Stealth1226/system_netd" remote="github" revision="sailboat"/>
+	<project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="lighthouse-os-devices"/>
+	<project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="lighthouse-os-devices"/>
+	<project path="device/xiaomi/extras" name="arrowos-devices/android_device_xiaomi_extras" remote="github" revision="arrow-12.0" />
 
-	<remove-project name="system_bpf" />
-	<project path="system/bpf" name="Stealth1226/system_bpf" remote="github" revision="sailboat"/>
-
+	<project path="kernel/xiaomi/sm6250" name="ArrowOS-Devices/android_kernel_xiaomi_sm6250" remote="github" revision="arrow-12.0" />
 	
-	<remove-project name="android_hardware_qcom_display" />
-	<project path="hardware/qcom-caf/msm8996/display" name="Stealth1226/hardware_qcom-caf_msm8996_display" remote="github" revision="sailboat" />
-
-	<project path="device/lge/rs988" name="device_lge_rs988" remote="lighthouse-os-devices" revision="sailboat"/>
-	<project path="kernel/lge/msm8996" name="android_kernel_lge_msm8996" remote="lighthouse-os-devices" revision="sailboat" />
-	<project path="vendor/lge" name="Stealth1226/proprietary_vendor_lge" remote="github" revision="sailboat"/>
-        <project path="device/lge/msm8996-common" name="Stealth1226/android_device_lge_msm8996-common" remote="github" revision="sailboat"/>
-        <project path="device/lge/g5-common" name="android_device_lge_g5-common" remote="lineage" revision="lineage-18.1"/>
-        <project path="device/lge/common" name="android_device_lge_common" remote="lighthouse-os-devices" revision="raft"/>
-        <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" revision="lineage-18.1"/>
-        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" revision="lineage-19.0" />
+	<project path="vendor/xiaomi/miatoll" name="ArrowOS-Devices/android_vendor_xiaomi_miatoll" remote="github" revision="arrow-12.0" />
+	<project path="vendor/xiaomi/sm6250-common" name="ArrowOS-Devices/android_vendor_xiaomi_sm6250-common" remote="github" revision="arrow-12.0" />
+        
+        <project path="packages/apps/GCamGOPrebuilt" name="arrowos-devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-12.0" />
+	<project path="hardware/xiaomi" name="arrowos-devices/android_hardware_xiaomi" remote="github" revision="arrow-12.0" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
 
 </manifest>
