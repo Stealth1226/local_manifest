@@ -19,4 +19,14 @@
 	<project path="hardware/xiaomi" name="arrowos-devices/android_hardware_xiaomi" remote="github" revision="arrow-12.0" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
 
+	<project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="pe" revision="twelve" />
+  	<project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="pe" revision="twelve" />
+  	<project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="pe" revision="twelve"/>
+  	<project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="pe" revision="twelve" />
+
+        <remove-project name="platform/packages/apps/Bluetooth" />
+	<remove-project name="platform/system/bt" />
+	<project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="lighthouse" />
+	<project path="system/bt" name="system_bt" remote="lighthouse" />
+	
 </manifest>
