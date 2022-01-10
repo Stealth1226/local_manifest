@@ -6,6 +6,11 @@
            revision="sailboat" />
 	
 
+	<remove-project name="frameworks_base" />
+	<project path="frameworks/base" name="Stealth1226/frameworks_base" remote="github" revision="sailboat"/>
+	<remove-project name="packages_apps_Supplies" />
+	<project path="packages/apps/Supplies" name="Stealth1226/packages_apps_Supplies-1" remote="github" revision="sailboat"/>
+	
 	<project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="lighthouse-os-devices"/>
 	<project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="lighthouse-os-devices"/>
 	<project path="device/xiaomi/extras" name="arrowos-devices/android_device_xiaomi_extras" remote="github" revision="arrow-12.0" />
