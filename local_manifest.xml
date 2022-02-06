@@ -12,7 +12,7 @@
 
 	<project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="lighthouse-os-devices" revision="sailboat-DFC"/>
 	
-	<project path="vendor/xiaomi/miatoll" name="Stealth1226/android_vendor_xiaomi_miatoll" remote="github" revision="sailboat" />
+	<project path="vendor/xiaomi/miatoll" name="Stealth1226/vendor_xiaomi_miatoll" remote="github" revision="sailboat" />
 	<!-- project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="lighthouse-os-devices" / -->
         
         <project path="packages/apps/GCamGOPrebuilt" name="arrowos-devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-12.0" />
