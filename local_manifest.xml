@@ -10,9 +10,9 @@
 	<!-- project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="lighthouse-os-devices"/ -->
 	<project path="device/xiaomi/extras" name="arrowos-devices/android_device_xiaomi_extras" remote="github" revision="arrow-12.0" />
 
-	<project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="lighthouse-os-devices" revision="sailboat"/>
+	<project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="lighthouse-os-devices" />
 	
-	<project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="lighthouse-os-devices" />
+	<project path="vendor/xiaomi/miatoll" name="Stealth1226/vendor_xiaomi_miatoll" remote="github" revision="sailboat" />
 	<!-- project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="lighthouse-os-devices" / -->
 
 	<project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="lighthouse-os-devices" />        
