@@ -13,8 +13,10 @@
 	<project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="lighthouse-os-devices" />
 	<project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="stelt" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
+
 	<remove-project name="xd_vendor_xdroid" />
 	<project path="vendor/xdroid" name="xd_vendor_xdroid" remote="stelt" revision="thirteen" />
-
+	<remove-project name="xd_system_sepolicy" />
+	<project path="system/sepolicy" name="xd_system_sepolicy" remote="stelt" revision="thirteen" />
 	
 </manifest>
